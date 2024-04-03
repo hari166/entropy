@@ -5,7 +5,7 @@ Induce irregularity into your k8s cluster to test resilience and integrity.
 ## Set-up
 
 ### Clone Repository
-- Clone with ```git clone github.com/hari166/entropy```
+- Clone with ```git clone https://github.com/hari166/entropy```
 - ```go build -o entropy```
 - Run ```entropy [command]```
 
