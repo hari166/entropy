@@ -6,16 +6,19 @@ Induce irregularity into your k8s cluster to test resilience and integrity.
 
 ### Clone Repository
 - Clone with ```git clone https://github.com/hari166/entropy```
-- ```go build -o entropy```
-- Run ```entropy [command]```
+- ```cd entropy```
+- Run ```./entropy [command]```
 
 ### Docker
 - Coming soon
 
 
 
-> ⚠️ [!WARNING]
+> [!WARNING] 
+
 > Proceed only with adequate testing and rollback procedures. Do not deploy in production environment. 
+
+> Requires glibc v2.35 and above
 
 > ```inject``` command is work in progress
 
