@@ -15,14 +15,13 @@ Induce irregularity into your k8s cluster to test resilience and integrity.
 
 
 > [!WARNING] 
-
-> Proceed only with adequate testing and rollback procedures. Do not deploy in production environment. 
-
-> Requires glibc v2.35 and above
-
-> ```inject``` command is work in progress
+> Proceed only with adequate testing and rollback procedures. Do not deploy in production environment.
 
 ## Usage
+> [!NOTE]
+> Requires glibc v2.35 and above.
+ ```inject``` command is work in progress
+> 
 Usage:
 ```
   entropy [command]
